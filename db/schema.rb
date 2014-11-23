@@ -22,5 +22,4 @@ ActiveRecord::Schema.define(version: 20141123035235) do
     t.datetime "video_updated_at"
     t.string   "name"
   end
-
 end
