@@ -1,6 +1,9 @@
 source 'https://rubygems.org'
 
 
+# this is because idk how to actually use Rails 4 (or any rails)
+gem 'protected_attributes'
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.4'
 # Use sqlite3 as the database for Active Record
@@ -38,3 +41,9 @@ gem 'spring',        group: :development
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
+# paperclip: attches files
+gem "paperclip", "~> 4.2"
+
+
+# lol what is this
+# gem 'minitest-5.4.3'
